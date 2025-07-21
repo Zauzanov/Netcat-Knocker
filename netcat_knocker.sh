@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TARGET="10.10.186.98"
+TARGET="192.168.204.129"
 PORTS="42 1337 10420 6969 63000"
 
 echo "$PORTS" | tr ' ' '\n' | while read -r i
